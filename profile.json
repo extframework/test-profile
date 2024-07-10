@@ -1,0 +1,14 @@
+{
+  "inheritsFrom": "1.21",
+  "releaseTime": "2024-06-14T15:19:59+0000",
+  "mainClass": "dev.extframework.test.profile.Main",
+  "libraries": [
+    {
+      "name": "dev.extframework:test-profile:1.0",
+      "url": "https://maven.extframework.dev/releases"
+    }
+  ],
+  "id": "test-profile",
+  "time": "2024-06-14T15:19:59+0000",
+  "type": "release"
+}
