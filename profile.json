@@ -4,8 +4,8 @@
   "mainClass": "dev.extframework.test.profile.Main",
   "libraries": [
     {
-      "name": "dev.extframework:test-profile:1.0",
-      "url": "https://maven.extframework.dev/releases"
+      "name": "dev.extframework:test-profile:1.0.1",
+      "url": "https://maven.extframework.dev/releases/"
     }
   ],
   "id": "test-profile",
