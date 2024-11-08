@@ -3,12 +3,12 @@ import dev.extframework.gradle.common.extFramework
 
 plugins {
     id("java")
-    id("dev.extframework.common") version "1.0.7"
+    id("dev.extframework.common") version "1.0.31"
     `maven-publish`
 }
 
 group = "dev.extframework"
-version = "1.0.3"
+version = "1.0.4"
 
 repositories {
     mavenCentral()
@@ -29,6 +29,10 @@ common {
             extFramework(credentials = propertyCredentialProvider, type=RepositoryType.RELEASES)
         }
     }
+}
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(8))
 }
 
 tasks.test {
